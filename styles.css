@@ -247,11 +247,11 @@ h1, h2, h3 {
 }
 
 .icon.ig {
-    background-image: url('ig.png');
+    background-image: url('images/ig.png');
 }
 
 .icon.twitter {
-    background-image: url('twitter.png');
+    background-image: url('images/twitter.png');
 }
 
 .icon:hover {

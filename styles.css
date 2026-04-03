@@ -116,6 +116,13 @@ h1, h2, h3 {
     z-index: 2;
 }
 
+.pink2-bg-bottom {
+    background-color: #FFDAD5;
+    padding: 50px 20px 80px 20px;
+    position: relative;
+    z-index: 2;
+}
+
 .container {
     max-width: 800px;
     margin: 0 auto;

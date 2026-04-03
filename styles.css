@@ -230,3 +230,31 @@ h1, h2, h3 {
         width: 140px;
     }
 }
+
+.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 8px;
+    background-color: #f1e2fb;
+    border-radius: 6px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.icon.ig {
+    background-image: url('ig.png');
+}
+
+.icon.twitter {
+    background-image: url('twitter.png');
+}
+
+.icon:hover {
+    transform: scale(1.1);
+    background-color: #e5c9f5;
+}

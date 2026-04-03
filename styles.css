@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #8a5a52;
+    background-color: #fff6ee;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #ba6a5e;
+}
+
+.top-section {
+    background-color: #f4c2ba;
+    padding: 50px 20px 80px 20px;
+    border-bottom-left-radius: 50% 100px;
+    border-bottom-right-radius: 50% 100px;
+    position: relative;
+    z-index: 2;
+}
+
+.header-text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.header-text p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.header-text h2 {
+    font-size: 1.8rem;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.team-card {
+    text-align: center;
+    width: 180px;
+}
+
+.card-box {
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.card-box img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.socials {
+    margin-top: 10px;
+}
+
+.socials .icon {
+    display: inline-block;
+    background-color: #f1e2fb;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 0.8rem;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.member-name {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #4a2f2a;
+}
+
+.detail-section {
+    padding: 80px 20px;
+}
+
+.cream-bg {
+    background-color: #fff6ee;
+    padding: 50px 20px 80px 20px;
+    border-bottom-left-radius: 50% 100px;
+    border-bottom-right-radius: 50% 100px;
+    position: relative;
+    z-index: 2;
+}
+
+.pink-bg-bottom {
+    background-color: #FFDAD5;
+    padding: 50px 20px 80px 20px;
+    border-bottom-left-radius: 100% 100px;
+    border-bottom-right-radius: 100% 100px;
+    position: relative;
+    z-index: 2;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.row.reverse {
+    flex-direction: row-reverse;
+}
+
+.image-box {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 5px solid white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 1;
+}
+
+.dots {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.left-dots {
+    left: -20px;
+}
+
+.right-dots {
+    right: -20px;
+}
+
+.dot {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.dot {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.dots .dot:nth-child(1) {
+    background-color: #f1bfb8;
+}
+
+.dots .dot:nth-child(2) {
+    background-color: #c67c71;
+}
+
+.dots .dot:nth-child(3) {
+    background-color: #ddaaa2;
+}
+
+.text-box {
+    flex: 1;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-box h3 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.npm {
+    font-weight: 600;
+    color: #d79a8f;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.text-box p {
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+    .row, .row.reverse {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .text-right {
+        text-align: center;
+    }
+    
+    .team-card {
+        width: 140px;
+    }
+}
